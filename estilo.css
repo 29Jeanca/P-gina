@@ -1,0 +1,20 @@
+li:hover{
+	color:#46FF33;
+}
+.Titulos{
+	background-color: #494DAC;
+}
+[subtitulo="subtitle"]{
+	color:#7DBE1A;
+}
+[titulotres="tercertitulo"]{
+	color:#1EA98A;
+}
+
+[primer="Párrafo"]{
+	color:#2D31AA;
+}
+.Fondo{
+	background-color:#494DAC;
+}
+
