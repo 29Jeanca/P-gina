@@ -1,4 +1,37 @@
-#Principal{
+#subtitulo{
     font-size: 30px;
-    color: black;
+    color: rgb(172, 33, 33);
     font-family:'Caveat',cursive;
+    top: 1500px;
+    left: 200px;
+}
+.contenedor{
+    right: 105px;
+    left: 140px;
+    position: absolute;
+    position: absolute;
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+}
+#MovimientoTitulo{
+    position: relative;
+    border-radius: 50%; 
+    animation: salto 2s;
+    animation-iteration-count: infinite;
+}
+#MovimientoTitulo::before{
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+}
+#MovimientoTitulo::after{
+    content: ' ';
+    display: inline-block;
+    background-image: url(C:\Users\jeanc\Downloads\Página.png);
+
+}
+@keyframes salto{
+    0%,100%{top: 0;}
+    30% {top: -15px;}
+}
