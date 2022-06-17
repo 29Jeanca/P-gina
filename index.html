@@ -1,53 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<title>Two Big Thumps</title>
-		<meta charset="utf-8">
+		<meta charset="utf-8">     
     <meta name="copyright" content="Two Big Thumps">
-		<link rel="icon" href="Iconos/IconoPagina.ico">
+    <meta name="keywords" content="juegos,videojuegos,noticias,gaming,tutoriales,nueva generación, horas de juego, nuevos videojuegos">
+    <meta name="description" content="TwoBigThumps inició como un proyecto de dos amigos,con bajo conocimiento en diseño de páginas web. Sin embargo tomaron el gran desafío de crear su propia página web."
+		<meta name="author" content="Bryan Castro Solís,Jeancarlos Barberena Morales-Two Big Thumps">
+    <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="icon" href="Iconos/IconoPagina.ico">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap" rel="stylesheet">
 	</head>
 	<body>
-      <input type="button">
+    <!--Boton de navegación, en este van a estar los medios de contacto, y otras coasas importantes
+    aún por definir-->
+    <section>
+      <nav>
+     <select id="puntitos" name="tresPuntitos"> 
+      <option value="Noticias">Noticias</option>
+      <option value="Acerca de">Acerca de</option>
+      <option value="Videojuegos">Videojuegos</option>
+     </select>
+    </nav>
+     </section>
+      <!--En este header está el logo que es una imágen-->
     <header class="logo">
-     <center><img src="Iconos/TituloPagina.png" alt="TituloPagina" title="LogoTitulo"></center> 
-  </header>
-      <div class="TituloSubtitulo">
+    <a href="index.html">
+      <img src="Iconos/TituloPagina.png" alt="TituloPagina" title="LogoTitulo"></a>
+  
+    <!-- Titulo y el subtitulo, ambos están alineados al centro con css-->
         <h1 class="title">TwoBigThumps</h1>	
-       <h3  id="subtitle">VIDEOJUEGOS,NOTICIAS Y MÁS</h3>
-      </div>
-      <div>
-        <input class="barrabusqueda" type="text" >
+       <h3  class="subtitle">VIDEOJUEGOS,NOTICIAS Y MÁS</h3>
+      
+      <!--Almacena la barrita de busqueda, con una imagen para
+      darle un mejor estilo-->
+        <input class="barrabusqueda" type="search" >
         <button class="lupita" type="button"> <img src="Iconos/lupita.png" height="15" width="15"></button>
-      </div>
-        
+      <!--El section guarda una pequeña parte en la que iran noticias, de momento no se tiene
+      decidido la manera en la que se va a presentar.-->
+      </header>
+        <article> 
       <textarea readonly>Aqui Van Noticias</textarea>
-       <div>
+    </article> 
+      <!--Está sería la parte b de la primera página, aquí se incluye un tipo Acerca de
+      Junto con un link a un servidor de discord-->
+     <section>
+      <article>    
         <h2>Superamos cualquier desafío, creando grandes soluciones</h2>
         <a href="https://discord.gg/JBUWp5ng7r" target="_BLANK">Únete a nuestra comunidad de Discord</a>
-       </div>
-       <div>
+       <!-- Aquí hay dos divs, en el que guardamos el primer y segundo párrafo-->
         <p>
           TwoBigThumps inició como un proyecto de dos amigos, 
           con bajo conocimiento en diseño de páginas web. 
           Sin embargo tomaron el gran desafío de crear su propia página web, 
           iniciando así una larga travesía de experiencias y aprendizaje.
         </p>
-       </div>
-       <div class="piepagina">
-        <img src="Iconos/PieDePagina.png" alt="TwoBigThumps" title="Esquina Inicio Two Big Thumps">
-       </div>
-       <div>
         <p>
           El enfoque es colaborar con la comunidad gamer, creando guías, 
           noticias y todo aquello que nos gusta a nosotros
           los gamers apasionados por la tecnología
         </p>
-       </div>
+      </article>
+      </section>
+       <!--Todo el footer está construido por un pie de página, y los contactos, correo y redes sociales.
+      A lo último está la privaciad terminos y condiciones-->
       <footer>
+        <section class="piepagina">
+          <img src="Iconos/PieDePagina.png" alt="TwoBigThumps" title="Logo Two Big Thumps">
         <h3></h3>TwoBigThumps2904@gmail.com</h3>
         <img src="Iconos/PiePagina.png" alt="PieDePágina" title="TwoBigThumps">
         <input type="button" value="subir">
@@ -57,15 +79,10 @@
             <li><a href="https://www.youtube.com/channel/UCOjPoijy0ATseTaTgmdxbNg" target="_BLANK">Youtube</a></li>
           </ul>
         </nav>
-        <div>
-          <a href="  ">Privacidad Términos y Condiciones</a>
-        </div>
-        <div>
+      <a href="">Privacidad Términos y Condiciones</a>
           <p>Bryan Castro Solís</p>
           <p>Jeancarlos Barberena Morales</p>
-
-          <input type="text">
-        </div>
+        </section>
       </footer>
 	</body>
 </html>
