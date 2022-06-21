@@ -58,3 +58,71 @@ margin: -25px;
 a:hover{
   color: #ed8074;
 }
+.barrita{
+  width:10px;
+  height:10px;
+  position:fixed;
+  transition: .4s all ;
+  z-index: 1;
+}
+.barrita ul{
+  padding:0px;
+  text-align: center;
+}
+.barrita li{
+  font-size: 0px;
+  transition:all .3s;
+  list-style: none; 
+}
+.barrita a{
+  text-decoration: none;
+  font-weight: normal;
+  transition: .3s all ;
+  font-size: 0px;
+  padding:0px;
+}
+.barrita h2{
+  text-align: center;
+  color:white;
+  padding:7px;
+  padding-bottom:7px;
+  font-size:0px;
+}
+.barrita img{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.barrita:hover{
+  width: 250px;
+  height: 800px;
+  background: #b24d42;
+}
+.barrita:hover h2{
+  text-align: center;
+  font-size: 35px;
+}
+.barrita:hover a{
+  display: block;
+  font-size: 20px;
+  padding:20px;
+}
+.barrita:hover img{
+  height:0px;
+}
+.barrita:hover li{
+  font-size: 15px;
+  border-top:1px solid #03121b;
+  width:100%;
+}
+.barrita:hover ul:last-of-type{
+  border-bottom: 1px solid #03121b;
+}
+.barrita:hover a:hover{ 
+  font-size: 25px;
+  padding: 30px 0px; 
+  background: rgba(23, 78, 112, 0.98);
+}
+.subir{
+  position: relative;
+  left:720px;
+}
