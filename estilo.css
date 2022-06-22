@@ -73,7 +73,8 @@ a:hover{
 .barrita li{
   font-size: 0px;
   transition:all .3s;
-  list-style: none; 
+  list-style: none;
+  color: white; 
 }
 .barrita a{
   text-decoration: none;
@@ -96,7 +97,7 @@ a:hover{
 .barrita:hover{
   width: 250px;
   height: 800px;
-  background: #b24d42;
+  background: rgb(20, 20, 27);
 }
 .barrita:hover h2{
   text-align: center;
@@ -112,16 +113,16 @@ a:hover{
 }
 .barrita:hover li{
   font-size: 15px;
-  border-top:1px solid #03121b;
+  border-top:1px solid white;
   width:100%;
 }
 .barrita:hover ul:last-of-type{
-  border-bottom: 1px solid #03121b;
+  border-bottom: 1px solid white;
 }
 .barrita:hover a:hover{ 
   font-size: 25px;
   padding: 15px 0px; 
-  background: #fff;
+  background: white;
 }
 .subir{
   position: fixed;
