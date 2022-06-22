@@ -1,10 +1,11 @@
 .fondopantalla{
   background-image: url("Iconos/FondoPáginaPrincipal.jpg");
-  background-size: 100%;
+  background-size: 1500px;
 }
 .logo{
- text-align: center;
-margin: -25px;
+  position: relative;
+  text-align: center;
+  top:19px;
 }
 .title{
     font-size: 20px;
@@ -104,7 +105,7 @@ a:hover{
 .barrita:hover a{
   display: block;
   font-size: 20px;
-  padding:20px;
+  padding:15px;
 }
 .barrita:hover img{
   height:0px;
@@ -119,10 +120,35 @@ a:hover{
 }
 .barrita:hover a:hover{ 
   font-size: 25px;
-  padding: 30px 0px; 
-  background: rgba(23, 78, 112, 0.98);
+  padding: 15px 0px; 
+  background: #fff;
 }
 .subir{
+  position: fixed;
+  bottom: 0%;
+  right:0%;
+}
+.caja{
   position: relative;
-  left:720px;
+  width: 1295px;
+  height: 500px;
+  background-size: 1295px 500px;
+  background-repeat: no-repeat;
+}
+.cajaDentroImagenNoticiaUno{
+  position: absolute;
+  width: 432px;
+  height: 167px;
+  bottom: 315px;
+  left:20px;
+  background-image:url("Iconos/ImagenNoticiaUno.jfif");
+  background-size: 432px 167px;
+  background-repeat: no-repeat;
+}
+.cajaNoticiaUno{
+  width: 432px;
+  position: absolute;
+  top: 180px;
+  text-align: center;
+  color: #fff;
 }
