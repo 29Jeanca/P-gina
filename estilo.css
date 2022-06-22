@@ -1,5 +1,6 @@
 .fondopantalla{
-  background-image: url("Iconos/FondoPáginaPrincipal.jpg");
+  background: rgb(35, 32, 54);
+  
   background-size: 1500px;
 }
 .logo{
@@ -31,22 +32,58 @@
 .barrabusqueda{
   border-style: solid;
   border-radius: 10px;
-  padding-left: 10px;
   display: block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 0px 0px 100px;
   bottom: 20px;
 }
 .lupita{
   position: relative;
-  right: 107px;
-  bottom: 40px;
+  left: 115px;
+  bottom: 45px;
   border-style: none;
-  background-color: #000;
 }
 .Notas{
     color: #fff;
+    font-size: 25px;
+}
+.Notas h2{
+  text-align:center;
+  font-family: 'Open Sans', Arial;
+  font-size: 29.5px;
+}
+.NoticiasDestacadas{
+  position: absolute;
+  bottom: 100px;
+  top: 715px;
+  right:25px;
+  text-decoration: underline;
+
+}
+.NotasUno{
+  text-align: center;
+  position: relative;
+  width: 500px;
+  height: 166px;
+  left: 700px;
+  bottom: 50px;
+  
+}
+.NotasDos{
+  text-align: center;
+  position: relative;
+  width: 500px;
+  height: 166px;
+  left: 200px;
+  bottom: 25px;
+  
+}
+.discord{
+  position: relative;
+  left: 200px;
+  top: 100px;
 }
 .piepagina{
   color: #fff;
@@ -131,25 +168,70 @@ a:hover{
 }
 .caja{
   position: relative;
-  width: 1295px;
+  width: 1500px;
   height: 500px;
-  background-size: 1295px 500px;
+  background-image: url("Iconos/FondoPáginaPrincipal.jpg");
+  background-size: 1500px 500px;
   background-repeat: no-repeat;
+  margin-top: 15px;
 }
 .cajaDentroImagenNoticiaUno{
   position: absolute;
-  width: 432px;
-  height: 167px;
-  bottom: 315px;
-  left:20px;
-  background-image:url("Iconos/ImagenNoticiaUno.jfif");
-  background-size: 432px 167px;
+  width: 485px;
+  height: 166px;
+  bottom: 510px;
+  left:5px;
+  background-size: 485px 167px;
+  background-repeat: no-repeat;
+}
+.cajaDentroImagenNoticiaDos{
+  position: absolute;
+  width: 485px;
+  height: 166px;
+  bottom: 510px;
+  left: 510px;
+  background-size: 485px 166px;
+  background-repeat: no-repeat;
+}
+.cajaDentroImagenNoticiaTres{
+  position: absolute;
+  width: 485px;
+  height: 166px;
+  bottom: 510px;
+  left: 1010px;
+  background-size: 485px 166px;
   background-repeat: no-repeat;
 }
 .cajaNoticiaUno{
-  width: 432px;
+  width: 485px;
   position: absolute;
   top: 180px;
   text-align: center;
   color: #fff;
+  font-family: 'Open Sans', Arial;
+  font-size: 13px;
+}
+.cajaNoticiaDos{
+  width: 485px;
+  position: absolute;
+  top: 180px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', Arial;
+  font-size: 13px;
+}
+.cajaNoticiaTres{
+  width: 485px;
+  position: absolute;
+  top: 180px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', Arial;
+  font-size: 13px;
+}
+.imagenLogo{
+  position: relative;
+  width:250px;
+  left: 929px;
+
 }
