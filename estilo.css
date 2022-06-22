@@ -55,12 +55,11 @@
   font-size: 29.5px;
 }
 .NoticiasDestacadas{
-  position: absolute;
-  bottom: 100px;
-  top: 715px;
-  right:25px;
+  position: relative;
+  bottom: 915px;
+  top: 100px;
+  left:25px;
   text-decoration: underline;
-
 }
 .NotasUno{
   text-align: center;
@@ -69,7 +68,6 @@
   height: 166px;
   left: 700px;
   bottom: 50px;
-  
 }
 .NotasDos{
   text-align: center;
@@ -92,6 +90,15 @@
   font-style: italic;
   text-decoration: none;
   color: #AC463B;
+}
+.enlacesNoticias{
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #AC463B;
+  position: relative;
+  bottom: 150px;
+  left:1200px;
 }
 a:hover{
   color: #ed8074;
@@ -179,7 +186,7 @@ a:hover{
   position: absolute;
   width: 485px;
   height: 166px;
-  bottom: 510px;
+  bottom: 330px;
   left:5px;
   background-size: 485px 167px;
   background-repeat: no-repeat;
@@ -188,7 +195,7 @@ a:hover{
   position: absolute;
   width: 485px;
   height: 166px;
-  bottom: 510px;
+  bottom: 330px;
   left: 510px;
   background-size: 485px 166px;
   background-repeat: no-repeat;
@@ -197,7 +204,7 @@ a:hover{
   position: absolute;
   width: 485px;
   height: 166px;
-  bottom: 510px;
+  bottom: 330px;
   left: 1010px;
   background-size: 485px 166px;
   background-repeat: no-repeat;
