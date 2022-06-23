@@ -98,7 +98,7 @@
   text-decoration: underline;
   color: #AC463B;
   position: relative;
-  bottom: 150px;
+  bottom: 100px;
   left:1200px;
 }
 a:hover{
@@ -174,12 +174,23 @@ a:hover{
   bottom: 0%;
   right:0%;
 }
-
+.linea1{
+    position: absolute;
+    border-left: solid #fff;
+    height:100%;
+    left: 32.5%;
+}
+.linea2{
+  position: absolute;
+  border-left: solid #fff;
+  height:100%;
+  left: 67.5%;
+}
 .caja{
   position: relative;
   width: 1350px;
   height: 500px;
-  left: 100px;
+  left: 75px;
   background-image: url("Iconos/FondoPáginaPrincipal.jpg");
   background-size: 1350px 500px;
   background-repeat: no-repeat;
@@ -187,33 +198,33 @@ a:hover{
 }
 .cajaDentroImagenNoticiaUno{
   position: absolute;
-  width: 485px;
+  width: 400px;
   height: 166px;
   bottom: 330px;
   left:5px;
-  background-size: 485px 167px;
+  background-size: 400px 166px;
   background-repeat: no-repeat;
 }
 .cajaDentroImagenNoticiaDos{
   position: absolute;
-  width: 485px;
+  width: 400px;
   height: 166px;
   bottom: 330px;
-  left: 510px;
-  background-size: 485px 166px;
+  left: 475px;
+  background-size: 400px 166px;
   background-repeat: no-repeat;
 }
 .cajaDentroImagenNoticiaTres{
   position: absolute;
-  width: 485px;
+  width: 400px;
   height: 166px;
   bottom: 330px;
-  left: 1010px;
-  background-size: 485px 166px;
+  left: 950px;
+  background-size: 400px 166px;
   background-repeat: no-repeat;
 }
 .cajaNoticiaUno{
-  width: 485px;
+  width: 400px;
   position: absolute;
   top: 180px;
   text-align: center;
@@ -222,7 +233,7 @@ a:hover{
   font-size: 13px;
 }
 .cajaNoticiaDos{
-  width: 485px;
+  width: 400px;
   position: absolute;
   top: 180px;
   text-align: center;
@@ -231,7 +242,7 @@ a:hover{
   font-size: 13px;
 }
 .cajaNoticiaTres{
-  width: 485px;
+  width: 400px;
   position: absolute;
   top: 180px;
   text-align: center;
