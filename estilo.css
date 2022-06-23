@@ -4,7 +4,6 @@
   background-size: 1500px;
 }
 .logo{
-  position: relative;
   text-align: center;
   top:19px;
 }
@@ -36,12 +35,13 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 0px 0px 100px;
+  width: 300px;
+  height: 30px;
   bottom: 20px;
 }
 .lupita{
   position: relative;
-  left: 115px;
+  left: 130px;
   bottom: 45px;
   border-style: none;
 }
@@ -240,5 +240,86 @@ a:hover{
   position: relative;
   width:250px;
   left: 929px;
+}
+.imagenFondoPiePagina{
+  position: relative;
+  top:75px;
+  height: 725px;
+  width: 1620px;
+}
+.piepagina h2{
+  position: absolute;
+  font-size: 70px;
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  top: 1575px;
+  left: 625px;
+}
+.nombreContacto{
+  position: absolute;
+  top:1800px;
+  left: 490px;
+  width: 250px;
+  height: 40px;
+  background-color:#151441;
+  color:#fff;
+}
+.correoContacto{
+  position: absolute;
+  top:1800px;
+  left: 780px;
+  width: 250px;
+  height: 40px;
+  background-color:#151441;
+  color:#fff;
+}
+.mensajeContacto{
+  position: absolute;
+  top:1900px;
+  left: 490px;
+  width: 540px;
+  height: 80px;
+  background-color:#000123;
+  color:#fff;
+}
+.enviarContacto{
+  position: absolute;
+  top:2025px;
+  left: 675px;
+  width: 175px;
+  height: 35px;
+  background-color:#151441;
+  color:#fff;
+  border-color: #151441;
+}
+.YTLOGO{
+position: absolute;
+top:1800px;
+left: 225px;
+}
+.IGLOGO{
+  position: absolute;
+  top:1915px;
+  left: 225px;
+}
+.correoPiePagina{
+  position: absolute;
+  top: 2050px;
+  left: 225px;
+  font-size: 21px;
+  font-family: 'Open Sans', Arial;
+  color: #AC463B;;
+  font-weight: bold;
 
+}
+.imagenPiePagina{
+  position: absolute;
+  top: 2065px;
+  left: 1000px;
+}
+.IGS{
+  position: absolute;
+  top: 2150px;
+  left: 400px;
+  font-size: 20px;
 }
