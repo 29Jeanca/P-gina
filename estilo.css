@@ -109,17 +109,20 @@ a:hover{
   height:10px;
   position:fixed;
   transition: .4s all ;
+  
   z-index: 1;
 }
 .barrita ul{
   padding:0px;
   text-align: center;
+ 
 }
 .barrita li{
   font-size: 0px;
   transition:all .3s;
   list-style: none;
   color: white; 
+
 }
 .barrita a{
   text-decoration: none;
@@ -204,6 +207,10 @@ a:hover{
   left:5px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.cajaDentroImagenNoticiaUno:hover{
+  opacity: 1;
 }
 .cajaDentroImagenNoticiaDos{
   position: absolute;
@@ -213,6 +220,10 @@ a:hover{
   left: 475px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.cajaDentroImagenNoticiaDos:hover{
+  opacity: 1;
 }
 .cajaDentroImagenNoticiaTres{
   position: absolute;
@@ -222,6 +233,10 @@ a:hover{
   left: 950px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.cajaDentroImagenNoticiaTres:hover{
+  opacity: 1;
 }
 .cajaNoticiaUno{
   width: 400px;
