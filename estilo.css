@@ -201,7 +201,6 @@ a:hover{
 }
 .cajaDentroImagenNoticiaUno{
   position: absolute;
-  width: 400px;
   height: 166px;
   bottom: 330px;
   left:5px;
@@ -320,6 +319,10 @@ a:hover{
   background-color:#151441;
   color:#fff;
   border-color: #151441;
+}
+.enviarContacto:hover{
+  background-color: #53528d;
+  cursor:pointer;
 }
 .YTLOGO{
 position: absolute;
