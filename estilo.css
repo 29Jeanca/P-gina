@@ -207,7 +207,7 @@ a:hover{
   left:5px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .cajaDentroImagenNoticiaUno:hover{
   opacity: 1;
@@ -220,7 +220,7 @@ a:hover{
   left: 475px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .cajaDentroImagenNoticiaDos:hover{
   opacity: 1;
@@ -233,7 +233,7 @@ a:hover{
   left: 950px;
   background-size: 400px 166px;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .cajaDentroImagenNoticiaTres:hover{
   opacity: 1;
