@@ -1,7 +1,6 @@
 *{
   box-sizing: border-box;
 }
-
 .fondopantalla{
   background: rgb(35, 32, 54);
   background-size: 100%;
@@ -13,8 +12,7 @@
 .title{
     font-size: 20px;
     font-weight: 1;
-    font-family: 'Orbitron', sans-serif;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive,Arial;
     text-align: center;
     position: relative;
     bottom: 20px;
