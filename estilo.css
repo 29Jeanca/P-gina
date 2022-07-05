@@ -1,7 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 .fondopantalla{
   background: rgb(35, 32, 54);
-  
-  background-size: 1500px;
+  background-size: 100%;
 }
 .logo{
   text-align: center;
