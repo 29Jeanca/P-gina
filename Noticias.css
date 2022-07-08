@@ -1,0 +1,43 @@
+.info{
+    position: relative;
+    top: 100px;
+    left: 75px;
+    width: 50%;
+    height: 200px;
+    background: #7c85b1;
+    float: left;
+}
+.info p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', Arial;
+    font-size: 25px;
+}
+.cajaNoticia{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.noticias{
+    height: 350px;
+    width: 100%;
+    top: 350px;
+    margin: 0;
+}
+.info:hover{
+    background: #3b4267;
+    transition: all 0.5s ease;
+}
+.lineasIndicadorNt{
+    position: relative;
+    left: 100px;
+    top: 325px;
+    background: #fff;
+    width: 85%;
+    height: 5px;
+}   
+.comentario{
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
