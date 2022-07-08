@@ -110,7 +110,6 @@ a:hover{
   height:10px;
   position:fixed;
   transition: .4s all ;
-  
   z-index: 1;
 }
 .barrita ul{
@@ -126,6 +125,7 @@ a:hover{
 
 }
 .barrita a{
+  color:#fff;
   text-decoration: none;
   font-weight: normal;
   transition: .3s all ;
@@ -171,7 +171,7 @@ a:hover{
 .barrita:hover a:hover{ 
   font-size: 25px;
   padding: 15px 0px; 
-  background: white;
+  background: rgb(89, 89, 119);
 }
 .subir{
   position: fixed;
