@@ -51,7 +51,6 @@
     height:10px;
     position:fixed;
     transition: .4s all ;
-    
     z-index: 1;
   }
   .barrita ul{
@@ -67,6 +66,7 @@
   
   }
   .barrita a{
+    color:#fff;
     text-decoration: none;
     font-weight: normal;
     transition: .3s all ;
@@ -112,7 +112,7 @@
   .barrita:hover a:hover{ 
     font-size: 25px;
     padding: 15px 0px; 
-    background: white;
+    background: rgb(35, 32, 54);
   }
   .subir{
     position: fixed;
@@ -263,7 +263,7 @@
     text-decoration: none;
     color: #AC463B;
   }
-  a:hover{
+  .enlaces a:hover{
     color: #ed8074;
   }
 
